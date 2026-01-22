@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "ML Browser Intelligence Lab",
+  "name": "Cynaptics Google Disco",
   "version": "1.0",
-  "description": "New Tab that inspects tabs and extracts content",
+  "description": "AI powered browser rip off",
 
   "chrome_url_overrides": {
     "newtab": "newtab.html"
@@ -21,5 +21,15 @@
 
   "background": {
     "service_worker": "background.js"
+  },
+  
+  "web_accessible_resources": [
+    {
+      "resources": ["response_1769022171377.json"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "sandbox": {
+    "pages": ["sandbox.html"]
   }
 }

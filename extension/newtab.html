@@ -6,14 +6,18 @@
   <link rel="stylesheet" href="newtab.css" />
 </head>
 <body>
-  <h1>🧠 Browser Intelligence Dashboard</h1>
+  <h1>🧠 Cynaptics Google Disco</h1>
 
-  <!-- Status line -->
   <p id="status" class="status">
     Initializing…
   </p>
+  <div class="genapp">
+    <textarea id="genPrompt" placeholder="Describe the game or app you want to build..."></textarea>
+    <button id="genBtn">Generate App</button>
+  </div>
 
-  <!-- Cards container -->
+  <div id="appPreview"></div>
+
   <div id="cards" class="grid"></div>
 
   <script src="newtab.js"></script>

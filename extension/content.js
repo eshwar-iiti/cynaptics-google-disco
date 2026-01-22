@@ -89,8 +89,5 @@
     return text.slice(0, 12000);
   }
 
-  // 🔹 IMPORTANT:
-  // The return value of this IIFE is what
-  // chrome.scripting.executeScript() receives as `result`
   return getContent();
 })();
